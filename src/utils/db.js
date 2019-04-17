@@ -13,5 +13,6 @@ module.exports = connectToDatabase = (mongoose) => {
     console.log("using new database connection");
     return mongoose.connect(process.env.DB, { useNewUrlParser: true }).then(db => {
         isConnected = db
+        return isConnected
     });
 };
