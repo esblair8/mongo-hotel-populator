@@ -1,0 +1,17 @@
+exports.accommodation = require('./accommodationTypeSchema');
+exports.board = require('./boardSchema');
+exports.category = require('./categorySchema');
+exports.chain = require('./chainSchema');
+exports.country = require('./countrySchema');
+exports.currency = require('./currencySchema');
+exports.destination = require('./destinationSchema');
+exports.facilityGroup = require('./facilityGroupsSchema');
+exports.facility = require('./facilitySchema');
+exports.hotel = require('./hotelSchema');
+exports.imageType = require('./imageTypeSchema');
+exports.issue = require('./issueSchema');
+exports.language = require('./languageSchema');
+exports.promotion = require('./promotionSchema');
+exports.room = require('./roomSchema');
+exports.segment = require('./segmentSchema');
+exports.terminal = require('./terminalSchema');
